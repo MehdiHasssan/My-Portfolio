@@ -25,6 +25,15 @@ import {
   threejs,
 } from "../assets";
 
+import Humraah1 from "../assets/Humraah1.jpg"
+import Humraah2 from "../assets/Humraah2.jpg"
+import SPO1 from "../assets/SPO1.jpg"
+import SPO2 from "../assets/SPO2.jpg"
+import FMS1 from "../assets/FMS1.jpg"
+import FMS2 from "../assets/FMS2.jpg"
+
+import gamebite from "../assets/company/gamebite.png"
+
 export const navLinks = [
   {
     id: "about",
@@ -42,19 +51,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "React Native Developer",
     icon: mobile,
+  },
+  {
+    title: "Frondend Developer",
+    icon: backend,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ui/Ux Designer",
     icon: creator,
   },
 ];
@@ -97,10 +106,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -108,65 +113,49 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Jr Game Developer",
+    company_name: "Game-bite studio",
+    icon: shopify,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining game features and functionalities using Unity.",
+      "Collaborating with cross-functional teams including designers and other developers to create engaging gaming experiences.",
+      "Implementing game mechanics and ensuring smooth gameplay across different platforms.",
+      "Participating in playtesting and providing feedback to improve game quality.",
+    ],
+  },
+  {
+    title: "MERN Stack (React Native)",
+    company_name: "Firefly-Techsolutions",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining mobile applications using React Native within the MERN stack.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive and adaptive design to ensure user experience across different devices.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Fiverr",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining mobile applications using React Native and other technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive and adaptive design to ensure user experience across different devices.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -197,34 +186,14 @@ const testimonials = [
 ];
 
 const projects = [
+  
   {
-    name: "Car Rent",
+    name: "Humraah app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The family planning app for an NGO helps underserved areas find centers, chat with doctors, and access educational content. Admin dashboard manages content and interactions, enhancing efficiency and engagement.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
@@ -232,34 +201,72 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
+    image1: Humraah1,
+    image2: Humraah2,
     source_code_link: "https://github.com/",
   },
+
   {
-    name: "Trip Guide",
+    name: "School Managemnt",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The School Management App, using React Native and Node.js, manages school activities and communication. It features attendance tracking, chat, timetables, and much more. The app , enhancing the educational experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
+      {
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
+    image1: SPO1,
+    image2: SPO2,
     source_code_link: "https://github.com/",
   },
+
+  {
+    name: "Firefly app",
+    description:
+      "Developed a React Native and Node.js app for organizational management with payment processing, notifications, chat, CRUD operations, and Cloudinary. It manages bonuses, tasks, and much more for boosting productivity.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "grapghQL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image1: FMS1,
+    image2: FMS2,
+    source_code_link: "https://github.com/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
