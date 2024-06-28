@@ -135,7 +135,7 @@ const experiences = [
     company_name: "Firefly-Techsolutions",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Present",
     points: [
       "Developing and maintaining mobile applications using React Native within the MERN stack.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
