@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { LuCode2 } from "react-icons/lu";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,10 +43,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Shaheer &nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
+          <LuCode2   className='w-9 h-9 object-contain'/>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex  '>
+            Hassan &nbsp;
+            <span className='sm:block hidden text-[#915EFF]'> | Portfolio</span>
           </p>
         </Link>
 

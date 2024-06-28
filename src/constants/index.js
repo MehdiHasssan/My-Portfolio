@@ -117,19 +117,19 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Jr Game Developer",
-    company_name: "Game-bite studio",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "June 2022 - Dec 2022",
-    points: [
-      "Developing and maintaining game features and functionalities using Unity.",
-      "Collaborating with cross-functional teams including designers and other developers to create engaging gaming experiences.",
-      "Implementing game mechanics and ensuring smooth gameplay across different platforms.",
-      "Participating in playtesting and providing feedback to improve game quality.",
-    ],
-  },
+  // {
+  //   title: "Jr Game Developer",
+  //   company_name: "Game-bite studio",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "June 2022 - Dec 2022",
+  //   points: [
+  //     "Developing and maintaining game features and functionalities using Unity.",
+  //     "Collaborating with cross-functional teams including designers and other developers to create engaging gaming experiences.",
+  //     "Implementing game mechanics and ensuring smooth gameplay across different platforms.",
+  //     "Participating in playtesting and providing feedback to improve game quality.",
+  //   ],
+  // },
   {
     title: "MERN Stack (React Native)",
     company_name: "Firefly-Techsolutions",
@@ -211,7 +211,7 @@ const projects = [
     ],
     image1: Humraah1,
     image2: Humraah2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MehdiHasssan/Humraah-Application",
   },
 
   {
@@ -238,7 +238,7 @@ const projects = [
     ],
     image1: SPO1,
     image2: SPO2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MehdiHasssan/sef_schools",
   },
 
   {
@@ -269,4 +269,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

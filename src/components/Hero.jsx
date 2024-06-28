@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import profile from "../assets/tech/profile.jpg";
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
-import Cv from "../assets/company/CV/CV.pdf"
+import Cv from "../assets/company/CV/hassan.pdf"
 
 const Hero = () => {
 
@@ -11,7 +11,7 @@ const Hero = () => {
     const pdfUrl = Cv;
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = "Shaheer-CV.pdf";
+    link.download = "Hassan-CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -29,7 +29,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Shaheer</span>
+            Hi, I'm <span className='text-[#915EFF]'>Mehdi Hassan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-justify`}>
             I develop user interfaces and Hybrid <br className='sm:block hidden' />
@@ -47,10 +47,12 @@ const Hero = () => {
 
             <button onClick={downloadResume} className="p-2">
               <FaFileDownload className="text-white h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 xl:h-10 xl:w-10" />
+              {/* <h3>Resume</h3> */}
+
             </button>
 
             <a
-              href="https://linkedin.com/in/muhammad-shaheer-gul-8179ab270"
+              href="https://www.linkedin.com/in/mehdi-hassan-ba2791197/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2"
@@ -58,7 +60,7 @@ const Hero = () => {
               <FaLinkedin className="text-white h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 xl:h-10 xl:w-10 " />
             </a>
             <a
-              href="https://github.com/MohammadShaheer001"
+              href="https://github.com/MehdiHasssan"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2"
