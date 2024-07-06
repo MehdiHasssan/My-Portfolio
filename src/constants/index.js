@@ -31,6 +31,11 @@ import SPO1 from "../assets/SPO1.jpg"
 import SPO2 from "../assets/SPO2.jpg"
 import FMS1 from "../assets/FMS1.jpg"
 import FMS2 from "../assets/FMS2.jpg"
+import QT1 from '../assets/qt2.jpg'
+import QT2 from '../assets/qt3.jpg'
+import BIQ1 from '../assets/biq5.jpg'
+import BIQ2 from '../assets/biq6.jpg'
+
 
 import gamebite from "../assets/company/gamebite.png"
 
@@ -266,7 +271,75 @@ const projects = [
     image1: FMS1,
     image2: FMS2,
     source_code_link: "https://github.com/",
-  }
+  },
+  {
+    name: "QuickTik app",
+    description:
+      "This app enables the user to apply for advance salary loans in their financial needs. Supporting our consumer continuously through quick access to cash to meet their needs in crisis. Providing  modern solutions through our digital platforms.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "jazzcash",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "easypaisa",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "grapghQL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image1: QT1,
+    image2: QT2,
+    source_code_link: "https://github.com/MehdiHasssan/Loan-Application",
+  },
+  {
+    name: "BrainIQ Sort app",
+    description:
+      "Boost your brainpower with BrainIQ Sort! This engaging puzzle game challenges your sorting skills with a variety of intriguing levels. Perfect for all ages, BrainIQ Sort combines fun and mental exercise in a colorful, easy-to-use interface. Sort objects by color. ",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ads",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "games",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mind games",
+        color: "blue-text-gradient",
+      },
+    ],
+    image1: BIQ1,
+    image2: BIQ2,
+    source_code_link: "https://github.com/MehdiHasssan/BrainIQ-sort-game",
+  },
 ];
 
 export { services, technologies, experiences, projects };
