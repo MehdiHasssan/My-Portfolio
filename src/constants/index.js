@@ -293,14 +293,7 @@ const projects = [
         name: "jazzcash",
         color: "pink-text-gradient",
       },
-      {
-        name: "easypaisa",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "grapghQL",
-        color: "orange-text-gradient",
-      },
+  
     ],
     image1: QT1,
     image2: QT2,
@@ -327,14 +320,7 @@ const projects = [
         name: "ads",
         color: "blue-text-gradient",
       },
-      {
-        name: "games",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mind games",
-        color: "blue-text-gradient",
-      },
+    
     ],
     image1: BIQ1,
     image2: BIQ2,
